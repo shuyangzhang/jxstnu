@@ -1,0 +1,92 @@
+{template header.html}
+
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">通知公告<a href="http://123.206.117.219/index.php?c=content&a=list&catid=24" class="btn btn-sm btn-primary	 col-md-offset-8 col-sm-offset-4 col-xs-offset-9">更多</a></div>
+					<div class="panel-body">
+						<table class="table table-striped">
+							<tbody>
+							{list catid=24 page=$page num=6 order=updatetime}
+								<tr>
+									<td align="center"><span class="glyphicon glyphicon-menu-right"></span></td>
+									<td align="left"><a href="{$t['url']}">{$t['title']}</a></td>
+									<td align="right">{date("Y-m-d", $t['updatetime'])}</td>
+								</tr>
+							{/list}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-8 col-xs-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">学院新闻<a href="http://123.206.117.219/index.php?c=content&a=list&catid=25" class="btn btn-sm btn-primary col-md-offset-10 col-sm-offset-8 col-xs-offset-9">更多</a></div>
+					<div class="panel-body">
+						<table class="table table-striped">
+							<tbody>
+							{list catid=25 page=$page num=6 order=updatetime}
+								<tr>
+									<td align="center"><span class="glyphicon glyphicon-menu-right"></span></td>
+									<td align="left"><a href="{$t['url']}">{$t['title']}</a></td>
+									<td align="right">{date("Y-m-d", $t['updatetime'])}</td>
+								</tr>
+							{/list}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">党建与团学  <a href="http://123.206.117.219/index.php?c=content&a=list&catid=26" class="btn btn-sm btn-primary col-md-offset-7 col-sm-offset-8 col-xs-offset-8">更多</a></div>
+					<div class="panel-body">
+						<table class="table table-striped">
+							<tbody>
+							{list catid=26 page=$page num=14 order=updatetime}
+								<tr>
+									<td align="center"><span class="glyphicon glyphicon-menu-right"></span></td>
+									<td align="left"><a href="{$t['url']}">{$t['title']}</a></td>
+									<td align="right">{date("Y-m-d", $t['updatetime'])}</td>
+								</tr>
+							{/list}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 col-sm-8 col-xs-12">
+				<div class="panel panel-primary">
+					<div class="panel-heading">教学动态<a href="http://123.206.117.219/index.php?c=content&a=list&catid=27" class="btn btn-sm btn-primary col-md-offset-10 col-sm-offset-8 col-xs-offset-8">更多</a></div>
+					<div class="panel-body">
+						<table class="table table-striped">
+							<tbody>
+							{list catid=27 page=$page num=6 order=updatetime}
+								<tr>
+									<td align="center"><span class="glyphicon glyphicon-menu-right"></span></td>
+									<td align="left"><a href="{$t['url']}">{$t['title']}</a></td>
+									<td align="right">{date("Y-m-d", $t['updatetime'])}</td>
+								</tr>
+							{/list}
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="panel panel-primary">
+					<div class="panel-heading">就业动态<a href="http://123.206.117.219/index.php?c=content&a=list&catid=28" class="btn btn-sm btn-primary col-md-offset-10 col-sm-offset-8 col-xs-offset-9">更多</a></div>
+					<div class="panel-body">
+						<table class="table table-striped">
+							<tbody>
+							{list catid=28 page=$page num=6 order=updatetime}
+								<tr>
+									<td align="center"><span class="glyphicon glyphicon-menu-right"></span></td>
+									<td align="left"><a href="{$t['url']}">{$t['title']}</a></td>
+									<td align="right">{date("Y-m-d", $t['updatetime'])}</td>
+								</tr>
+							{/list}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+{template footer.html}

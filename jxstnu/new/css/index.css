@@ -1,0 +1,41 @@
+
+.nav > li .dropdown-menu {   margin: 0; } .nav > li:hover .dropdown-menu {
+    display: block; 
+}
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;	
+}
+.collapse.navbar-collapse{
+	padding-right: 0;
+	padding-left: 0;
+}
+.panel-body{
+	padding: 0;
+}
+.table{
+	margin-bottom: 0; 
+}
+.ztbf > p{
+	font-family: 仿宋_GB2312; font-size: 14pt; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt;line-height: 30px;margin-left:5%;margin-right: 5%;
+}
+.ztbf > p > img {
+	width:100%;
+}
+.ztbf > p > span > img {
+	width:100%;
+}
+.btn-block+.btn-block{
+	margin-top: 0;
+}
+.pagination{
+	margin:0;
+}
+.pagination > ul{
+	list-style: none;
+	padding-left: 0;
+}
+.pagination > ul > li {
+	display: inline;
+	padding-left: 5px;
+}
